@@ -1,0 +1,28 @@
+baseURL = "https://www.stablecaps.co.uk/"
+languageCode = "en-us"
+title = "Stablecaps Ltd"
+theme = "PaperMod"
+
+[params]
+author = "Stablecaps Ltd"
+showReadingTime = true
+comments = false
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Articles"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "services"
+    name = "Services"
+    url = "/services/"
+    weight = 3
