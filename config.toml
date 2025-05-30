@@ -1,4 +1,4 @@
-baseURL = "https://www.stablecaps.co.uk/"
+baseURL = "https://stablecaps.co.uk/"
 languageCode = "en-us"
 theme = "PaperMod"
 title = "Stablecaps Ltd"
