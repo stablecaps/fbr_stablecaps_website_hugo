@@ -11,11 +11,16 @@ description = "Systems thinking, structured decision-making, and platform engine
 images = ["images/card-preview.png"]
 showReadingTime = true
 
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
 [params.footer]
 content = "© 2025 Stablecaps Ltd. All thoughts and tools are shared with curiosity, not certainty."
 
 [params.assets]
-customCSS = ["css/custom.css"]
+customCSS = ["/css/custom.css"]
 
 [menu]
 [[menu.main]]
@@ -35,3 +40,9 @@ identifier = "services"
 name = "Services"
 url = "/services/"
 weight = 3
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 50
