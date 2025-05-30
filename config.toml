@@ -1,15 +1,37 @@
-baseURL = "https://stablecaps.com/"
-languageCode = "en-us"
-theme = "PaperMod"
-title = "Stablecaps Ltd"
+baseURL = "https://stablecaps.com/" 
+defaultContentLanguage = "en" 
+enableRobotsTXT = true 
+googleAnalytics = "" # Add your GA ID if using analytics
+languageCode = "en-gb" 
+theme = "PaperMod" 
+title = "Stablecaps" 
 
 [params]
 author = "Stablecaps Ltd"
 comments = false
 defaultTheme = "dark"
-description = "Systems thinking, structured decision-making, and platform engineering insights from Stablecaps Ltd."
+description = "DevOps, SRE, and platform engineering — for systems that scale, teams that move, and developers that stay in flow"
 images = ["images/card-preview.png"]
+keywords = [
+  "DevOps",
+  "Platform Engineering",
+  "SRE",
+  "Developer Experience (DevEx)",
+  "LLM Tooling",
+  "Terraform",
+  "Python",
+  "Linux",
+  "Infrastructure as Code (IaC)",
+  "Stablecaps",
+]
 showReadingTime = true
+
+[params.homeInfoParams]
+Content = "DevOps, SRE, and platform engineering — for systems that scale, teams that move, and developers that stay in flow."
+Title = "Stablecaps"
+
+[social]
+github = "https://github.com/stablecaps"
 
 [markup]
 [markup.goldmark]

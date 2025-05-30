@@ -1,6 +1,9 @@
 # Stablecaps Ltd – Hugo Site (PaperMod Theme)
 
-This is the scaffold for your personal website built with **Hugo** and the **PaperMod** theme.
+Stablecaps: DevOps, SRE, and platform engineering — tuned for velocity, resilience, and DevEx.
+
+Overview:
+Stablecaps website repo built with **Hugo** and the **PaperMod** theme.
 
 ---
 
