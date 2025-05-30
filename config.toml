@@ -1,28 +1,37 @@
 baseURL = "https://www.stablecaps.co.uk/"
 languageCode = "en-us"
-title = "Stablecaps Ltd"
 theme = "PaperMod"
+title = "Stablecaps Ltd"
 
 [params]
 author = "Stablecaps Ltd"
-showReadingTime = true
 comments = false
+defaultTheme = "dark"
+description = "Systems thinking, structured decision-making, and platform engineering insights from Stablecaps Ltd."
+images = ["images/card-preview.png"]
+showReadingTime = true
+
+[params.footer]
+content = "© 2025 Stablecaps Ltd. All thoughts and tools are shared with curiosity, not certainty."
+
+[params.assets]
+customCSS = ["css/custom.css"]
 
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
 
-  [[menu.main]]
-    identifier = "posts"
-    name = "Articles"
-    url = "/posts/"
-    weight = 2
+[[menu.main]]
+identifier = "posts"
+name = "Articles"
+url = "/posts/"
+weight = 2
 
-  [[menu.main]]
-    identifier = "services"
-    name = "Services"
-    url = "/services/"
-    weight = 3
+[[menu.main]]
+identifier = "services"
+name = "Services"
+url = "/services/"
+weight = 3
