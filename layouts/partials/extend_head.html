@@ -1,5 +1,11 @@
-{{- if not .Site.IsServer -}}
+<!-- Force-load custom CSS -->
+<link rel="stylesheet" href="/css/custom.css" />
+
+<!-- Plausible tracking -->
+{{- if not (and (isset .Site "IsServer") .Site.IsServer) -}}
 <script defer data-domain="stablecaps.com"
     src="https://plausible.io/js/script.file-downloads.hash.outbound-links.js"></script>
 <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 {{- end -}}
+
+
